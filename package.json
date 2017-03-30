@@ -1,0 +1,22 @@
+{
+  "name": "rollup-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "wan bao <ylxbsoftware@gmail.com> (https://github.com/ylxbsoftware)",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-json": "^2.1.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-watch": "^3.2.2"
+  },
+  "dependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.0"
+  }
+}
